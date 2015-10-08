@@ -1,9 +1,9 @@
 {
-    "name": "appverse-web-html5-core",
-    "version": "0.5.0",
+    "name": "proteo.invocation-service",
+    "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Appverse/appverse-web-html5-core"
+        "url": "https://appverse.gftlabs.com/git/scm/ap/proteo.invocation-service.git"
     },
     "devDependencies": {
         "canonical-path": "0.0.2",
