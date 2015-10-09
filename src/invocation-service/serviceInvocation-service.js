@@ -10,7 +10,7 @@
             var factory = {};
 
             factory.callService = function(relativeUrl, body, config) {
-                $log.debug('Calling service ' + relativeUrl);
+                $log.debug('Calling service with url:' + relativeUrl);
                 var deferredPetition = $q.defer();
                 if (!(relativeUrl.indexOf('/') === 0)) {
                     relativeUrl = '/' + relativeUrl;
@@ -20,7 +20,8 @@
                         url: REST_CONFIG.BaseUrl + relativeUrl,
                         data: body,
                         headers: {
-                            'Content-Type': 'application/json'
+                            'Content-Type': 'application/json',
+                            'Api-Key': 'foobar'
                         }
                     })
                     .success(function(response) {
