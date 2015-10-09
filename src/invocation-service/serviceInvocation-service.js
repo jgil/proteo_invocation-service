@@ -20,8 +20,7 @@
                         url: REST_CONFIG.BaseUrl + relativeUrl,
                         data: body,
                         headers: {
-                            'Content-Type': 'application/json',
-                            'Api-Key': 'foobar'
+                            'Content-Type': 'application/json'
                         }
                     })
                     .success(function(response) {
