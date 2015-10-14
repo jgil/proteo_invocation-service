@@ -4,7 +4,7 @@
 
 var fs = require('fs'),
     connectLiveReload = require('connect-livereload'),
-    bowerFile = require('../../../bower.json'),
+    bowerFile = require('./bower.json'),
     LIVERELOAD_PORT = 35729,
     liveReloadSnippet = connectLiveReload({
         port: LIVERELOAD_PORT
