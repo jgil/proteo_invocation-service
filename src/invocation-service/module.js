@@ -11,7 +11,7 @@
      * proteo.invocation-service module.
      * Bootstraps the application by integrating services that have any relation.
      */
-    angular.module('proteo.invocation-service', ['appverse.detection'])
+    angular.module('proteo.invocation-service', ['appverse.utils'])
         .config(config).run(run);
 
 
